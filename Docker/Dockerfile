@@ -1,3 +1,3 @@
 FROM golang:latest
 
-RUN "Pegar comandos GoLang"
+# TODO: Go Lang Hello World!
