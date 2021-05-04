@@ -1,4 +1,3 @@
-27/04/2021 - 6h30
 # Iniciando com Docker
 
 * docker ps - lista containers;
