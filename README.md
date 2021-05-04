@@ -1,4 +1,4 @@
-# code_education
+# Code Education - Full Cycle 2.0
 Repository for [Code Education Full Cycle 2.0](https://portal.code.education/lms/#/) course challenges
 
 * ***Docker - Ongoing***;
