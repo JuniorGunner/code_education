@@ -1,5 +1,5 @@
 # code_education
-Repository for Code Education Full Cycle 2.0 course challenges
+Repository for [Code Education Full Cycle 2.0](https://portal.code.education/lms/#/) course challenges
 
 * ***Docker - Ongoing***;
 * Padrões e técnicas avançadas com Git e GitHub;
