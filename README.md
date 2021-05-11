@@ -2,7 +2,7 @@
 Repository for [Code Education Full Cycle 2.0](https://portal.code.education/lms/#/) course challenges
 
 * ***[Docker - Ongoing](https://github.com/JuniorGunner/code_education/tree/main/Docker)***;
-* ***[Padrões e técnicas avançadas com Git e GitHub](https://github.com/JuniorGunner/code_education/tree/main/Git)***;
+* ***[Padrões e técnicas avançadas com Git e GitHub - Ongoing](https://github.com/JuniorGunner/code_education/tree/main/Git)***;
 * Integração Contínua;
 * Kubernetes;
 * Service Mesh com Istio;
