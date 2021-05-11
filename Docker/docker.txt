@@ -85,3 +85,12 @@
 
 * curl http://host.docker.internal:<port_number> - acessa o que estiver na porta;
 
+
+# Colocando em prática
+
+* base image:
+* Dockerfile:
+	- apt-get update
+	- WORKDIR /var/www/
+	- adicionar comandos para instalaçõa de pacotes no Dockerfile;
+
