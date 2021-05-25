@@ -26,7 +26,7 @@
 
 * docker volume ls;
 
-* docker colume create <volume_name>;
+* docker volume create <volume_name>;
 
 # Trabalhando com Imagens
 
