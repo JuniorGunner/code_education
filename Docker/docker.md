@@ -1,4 +1,5 @@
 27/04/2021 - 6h30
+[Repositório dos Exemplos](https://github.com/codeedu/fullcycle2.0-devops-docker)
 # Iniciando com Docker
 
 * docker ps - lista containers;
@@ -27,6 +28,10 @@
 * docker volume ls;
 
 * docker volume create <volume_name>;
+
+# Desafio Imagem Hello GO Lang:
+
+* ```$ docker build -t juniorgunner/codeeducation .```
 
 # Trabalhando com Imagens
 
@@ -92,5 +97,31 @@
 * Dockerfile:
 	- apt-get update
 	- WORKDIR /var/www/
-	- adicionar comandos para instalaçõa de pacotes no Dockerfile;
+	- adicionar comandos para instalação de pacotes no Dockerfile;
+	- docker build -t <username>/<imagename> -f path/to/Dockerfile.prod
 
+# Otimizando Imagens
+
+* Multistage building;
+	```
+		FROM golang:latest AS builder
+		.
+		.
+		.
+		FROM scratch
+		COPY --from=builder /path/ .
+		RUN chwon -R www-data:www-data /var/www # permitir segundo estágio manipular arquivos, stc
+	```
+
+* Nginx como proxy reverso (nginx.conf);
+
+
+# DOCKER-COMPOSE
+
+* Iniciando com docker-compose;
+* Criando banco de dados MySQL;
+* Dependência entre containers (depends_on):
+	- DOCKERIZE on app Dockerfile - install on build;
+	- ```$ dockerize -wait tcp://db:3306 -timeout 50s```;
+	- ```$ docker logs app```
+	- ```$ docker logs db```

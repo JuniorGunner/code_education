@@ -1,3 +1,0 @@
-# Docker
-
-* Repositório DockerHub: ...

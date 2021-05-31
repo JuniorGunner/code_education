@@ -1,0 +1,20 @@
+# FROM busybox
+# FROM scratch
+# ADD busybox.tar.xz /
+# CMD ["sh"]
+# FROM alpine:latest
+FROM ubuntu:latest
+ENV TZ=America
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+COPY ./hello.go .
+
+# RUN apt-get update && apt-get upgrade -y && apt-get install -y golang
+# RUN apk update && apk add golang-go
+# RUN pm install golang-go
+# RUN apk update
+
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install -y golang-go
+
+CMD go run hello.go

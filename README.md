@@ -14,6 +14,6 @@ Repository for [Code Education Full Cycle 2.0](https://portal.code.education/lms
 * Arquitetura do projeto Prático - Codeflix;
 * Microsserviço - catálogo de vídeos com Laravel (Backend);
 * Microsserviço - catálogo de vídeos com React (Frontend);
-* Microsserviço de Encoder de Vídeo com [Go Lang](https://golang.org/doc/tutorial/getting-started);
+* Microsserviço de Encoder de Vídeo com Go Lang;
 * Autenticação entre os microsserviços;
 * ...
