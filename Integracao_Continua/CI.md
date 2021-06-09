@@ -1,5 +1,6 @@
 # Iniciando com CI
 
 * Software exemplo (Go Lang);
-* Primeiro workflow;
-* 
+* Primeiro workflow:
+  - Github actions;
+  - .github/workflows/ci.yaml;
