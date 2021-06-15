@@ -6,7 +6,7 @@ Repository for [Code Education Full Cycle 2.0](https://portal.code.education/lms
 * ***[Integração Contínua - Ongoing](https://github.com/JuniorGunner/code_education/tree/main/Integracao_Continua)***;
 * Kubernetes;
 * Service Mesh com Istio;
-* ***Fundamentos de Arquitetura de Software - Ongoing***;
+* ***[Fundamentos de Arquitetura de Software - Ongoing](https://github.com/JuniorGunner/code_education/tree/main/Arquitetura_de_Software)***;
 * Comunicação;
 * RabbitMQ;
 * Autenticação e Keycloak;
